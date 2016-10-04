@@ -1,18 +1,18 @@
 body {
   font-family: papyrus;
-  color: lightbrown;
+  color: brown;
   background: url("http://i.stack.imgur.com/jGlzr.png");
   max-width: 600px;
   margin: 0 auto;
-
 }
+
 h1 {
   text-align: center;
 }
+
 h2 {
   text-align: center;
 }
-
 ul{
   list-style: none;
   color: black;
@@ -26,4 +26,5 @@ li {
 p2 {
   text-align: left;
   margin: 10px;
+  text-align: left;
 }
