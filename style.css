@@ -1,0 +1,29 @@
+body {
+  font-family: papyrus;
+  color: lightbrown;
+  background: url("http://i.stack.imgur.com/jGlzr.png");
+  max-width: 600px;
+  margin: 0 auto;
+
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+  color: black;
+  text-align: center;
+}
+li {
+  color: black;
+  display: inline;
+  padding: 10px;
+}
+p2 {
+  text-align: left;
+  margin: 10px;
+}
