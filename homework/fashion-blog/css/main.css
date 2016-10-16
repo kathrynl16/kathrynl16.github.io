@@ -31,7 +31,7 @@ ul {
 	font-weight: 100;
 }
 
-li{
+.topnav li{
 	color: #dddddd;
 	display: inline;
 	text-decoration: underline;
@@ -39,7 +39,7 @@ li{
 	margin: 5px;
 }
 
-li:hover {
+.topnav li:hover {
 	color: black;
 }
 
@@ -83,9 +83,26 @@ a {
 }
 
 a:hover{
-	color: #aa0000;
+	color: #aa0000;	
 }
 
+.bottomnav {
+	margin-top:25px;
+	display: block;
+	width:100%;
+	margin-left:25%;
+	margin-top:30px;
+	width:720px;
+	white-space: nowrap;
+}
+
+.bottomnav ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+}
 
 
 footer {
