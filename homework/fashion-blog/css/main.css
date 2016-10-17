@@ -3,43 +3,48 @@
 	padding: 54px;
 	border: solid, left, 6px, border, #dddddd;
 	color: #444444;
-	font-family: "Lato";
+	font-family: 'Lato', sans-serif;
 	line-height: 1.5;
-	font-weight: 400;
+	font-weight: 300;
 	//*Nate: For some reason the font-weight in the container wouldn't apply so I had to add it to each element..help?? *//
 }
 
 header h1 {
-	color: red;
-	font-size: 64px;
-	font-weight: 400;
+	font-size: 52px;
+	color: #DD0000;
+	font-weight: 300;
+	margin-bottom: 0;
 	margin-top: 5px;
-	margin-bottom: 5px;
 }
 
 header h2 {
 	color: black;
+	font-size: 28px;
 	font-weight: 300;
-	margin-top: 5px;
+	font-stretch: condensed;
 	margin-bottom: 5px;
+	margin-top: 0	;
 }
 
 ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	font-weight: 100;
+	font-weight: 300;
 }
 
 .topnav li{
-	color: #dddddd;
 	display: inline;
 	text-decoration: underline;
-	font-size: 20px;
+	font-size: 22px;
 	margin: 5px;
 }
 
-.topnav li:hover {
+.topnav a {
+	color: #dddddd;
+}
+
+.topnav a:hover {
 	color: black;
 }
 
@@ -52,7 +57,7 @@ article {
 }
 
 article h1, article h2 {	
-	font-weight: 100;
+	font-weight: 300;
 	font-size: 30px;
 	margin-bottom: 5px; 
 	margin-top: 5px;
@@ -74,37 +79,47 @@ article p {
 	font-size: 18px;
 }
 
-a {
+article a {
 	display: block;
 	color: #DD0000;
 	text-align: right;
 	font-weight: bold;
 	font-size: 19px;
+	text-decoration: none;
 }
 
 a:hover{
 	color: #aa0000;	
 }
 
-.bottomnav {
-	margin-top:25px;
-	display: block;
-	width:100%;
-	margin-left:25%;
-	margin-top:30px;
-	width:720px;
+.bottomnav ul {
+	list-style-type: none;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	padding: 0;
+	font-weight: 100;
 	white-space: nowrap;
 }
 
-.bottomnav ul {
-  padding: 0px;
-  margin: 0px;
-  text-align: center;
-  display:inline-block;
-  vertical-align:top;
+.bottomnav li {
+	display: inline;
+	text-decoration: underline;
+	font-size: 20px;
+	margin: 5px;
 }
 
+.bottomnav a {
+	color: #DD0000;
+	font-size: 18px;
+
+}
+
+.bottomnav a:hover {
+	color:#aa0000;
+}
 
 footer {
 	color: #bbbbbb;
+	margin-top: 20px;
+	font-size: 18px;
 }
