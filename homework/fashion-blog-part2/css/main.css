@@ -1,0 +1,160 @@
+.container {
+  max-width: 720px;
+  padding: 54px;
+  border: solid, left, 6px, border, #dddddd;
+  color: #444444;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  //*Nate: For some reason the font-weight in the container wouldn't apply so I had to add it to each element..help?? *//
+}
+
+header h1 {
+  font-size: 52px;
+  color: #DD0000;
+  font-weight: 300;
+  margin-bottom: 5px;
+  margin-top: 0;
+  float: left;
+}
+
+header h2 {
+  color: black;
+  font-size: 28px;
+  font-weight: 300;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  margin-top: 28px;
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+ul {
+  color: white;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  min-width: 100%;
+}
+
+.topnav li{
+  background: black;
+  display: inline;
+  font-size: 22px;
+  padding: 13px;
+  /*margin: 0.5px;*/
+/*  border: 2px solid white;*/
+
+}
+
+.topnav a {
+  color: #dddddd;
+  text-decoration: none;
+  text-align: center;
+}
+
+.topnav a:hover {
+  color: white;
+}
+
+article {
+  margin-top: 50px;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-bottom-color: #cccccc; 
+  padding-bottom:25px;
+  }
+
+main {
+  float: left;
+  width: 60%;
+  margin-right: 5px;
+}
+
+article h1, article h2 {  
+  font-weight: 300;
+  font-size: 30px;
+  margin-bottom: 5px; 
+  margin-top: 5px;
+}
+
+article h1 {
+  color: #cccccc;
+}
+
+article h2 {
+  color: black;
+}
+
+img {
+  max-width: 432px;
+}
+
+article p {
+  font-size: 18px;
+}
+
+article a, aside a{
+  display: block;
+  color: #DD0000;
+  text-align: right;
+  font-weight: bold;
+  font-size: 19px;  
+  text-decoration: none;
+}
+a:hover{
+  color: #aa0000; 
+}
+
+aside {
+  float: left;
+  width: 38%;
+  padding-left: 5px;
+}
+
+aside img, aside p {
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-bottom-color: #cccccc; 
+  padding-bottom: 10px;
+}
+
+aside img {
+  align: center;
+}
+
+.bottomnav ul {
+  list-style-type: none;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  padding: 0;
+  font-weight: 100;
+  white-space: nowrap;
+}
+
+.bottomnav li {
+  display: inline;
+  text-decoration: underline;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.bottomnav a {
+  color: #DD0000;
+  font-size: 18px;
+
+}
+
+.bottomnav a:hover {
+  color:#aa0000;
+}
+
+footer {
+  color: #bbbbbb;
+  margin-top: 20px;
+  font-size: 18px;
+}

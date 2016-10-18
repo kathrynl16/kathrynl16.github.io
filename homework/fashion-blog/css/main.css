@@ -1,0 +1,58 @@
+.container {
+  width: 720px;
+  margin-left: 50px;
+  margin-top: 10px;
+  padding: 54px;
+  color: solid, left, 6px, border, #dddddd;
+  font-family: "Lato";
+  line-height: 1.5;
+}
+
+
+h1 {
+  color: red;
+  font-size:  50px;
+  font-weight: lighter;
+
+}
+
+header h2 {
+  color: black; 
+  font-weight: lighter;
+}
+
+nav {
+  color: #dddddd;
+  margin: 20 auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+  }
+
+li {
+  display: inline;
+  border-right: left;
+  margin: 10px;
+  text-decoration: underline;
+
+}
+
+p {
+  color: #444444;
+}
+
+img {
+  max-width: 100%;
+}
+
+.article {
+  border-bottom: 10px;
+}
+
+div.continue {
+  text-align: right;
+}

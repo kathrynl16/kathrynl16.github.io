@@ -1,0 +1,35 @@
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.box {
+  height: 150px;
+}
+
+header {
+  background: red;
+}
+
+main {
+  background: yellow;
+  float: left;
+  width: 60%;
+}
+
+aside {
+  background: green;
+  float: right;
+  width: 20%;
+}
+
+footer {
+  background: blue;
+}
+
+.clear {
+  clear: both;
+}
+
+
