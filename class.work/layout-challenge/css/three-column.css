@@ -1,0 +1,41 @@
+header, main, aside, footer {
+	background: grey
+}
+
+header {
+	height: 80px;
+	margin: 10px 0;
+}
+
+main {
+	height: 300px;
+	width: 60%;
+	margin: 10px 65px 10px;
+	display: inline-block;
+	/*float: left;*/
+}
+
+aside {
+	background: pink;
+	height: 300px;
+	width: 15%;
+	margin: 10px 0;
+	/*float: right;*/
+}
+
+aside#firstaside {
+	float: left;
+}
+
+aside#secondaside {
+	float: right;
+}
+
+footer {
+	height: 80px;
+	margin: 10px 0;
+}
+
+.clear {
+	clear: both;
+}

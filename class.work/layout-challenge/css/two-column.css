@@ -1,0 +1,31 @@
+header, main, aside, footer {
+	background: grey
+}
+
+header {
+	height: 80px;
+	margin: 10px 0;
+}
+
+main {
+	height: 300px;
+	width: 60%;
+	margin: 10px 0;
+	float:left;
+}
+
+aside {
+	height: 300px;
+	width: 38%;
+	margin: 10px 0;
+	float: right;
+}
+
+footer {
+	height: 80px;
+	margin: 10px 0;
+}
+
+.clear {
+	clear: both;
+}

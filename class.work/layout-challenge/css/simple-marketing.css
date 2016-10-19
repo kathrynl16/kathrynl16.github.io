@@ -1,0 +1,50 @@
+body {
+	width: 800px;
+	margin: 10px 0 10px 10px ;
+}
+
+header, article, section, footer {
+	background: pink;
+	margin: 10px 0;
+}
+
+.clear {
+	clear: both;
+}
+
+header {
+	height: 100px;
+}
+
+article {
+	height: 500px;
+	width: 49%;
+}
+
+article.leftarticle {
+	float: left;
+}
+
+article.rightarticle {
+	float: right;
+}
+
+section {
+	height: 200px;
+	width: 32%;
+}
+
+section.firstsec, section.secondsec{
+	float: left;
+}
+
+section.secondsec {
+	margin: 10px 0px 10px 17px;
+
+}
+section.thirdsec{
+	float: right;
+}
+footer {
+	height: 200px;
+}
