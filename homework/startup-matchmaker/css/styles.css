@@ -157,24 +157,41 @@ li a {
 }
 
 .subsection {
-  border: 1px solid #000000;
-  /*height: 500px;*/
-  /*max-width: 900px;*/
+  background: rgb(238,238,238);
+  height: 250px;
+  padding-top: 25px; 
 }
-
 
 .subsection div {
-  width: 25%;
-  margin: 0;
-  background: pink;
+  padding: 15px 30px 15px; 
+  width: 27%;
 }
 
-.createprofile, .finddev {
+.subsection h2 {
+  font-size: 25px;
+  font-family: 'Merriweather', serif;
+  margin-bottom: 0;
+}
+
+.subsection p {
+  font-size: 20px;  
+  margin-top: 0;
+}
+
+#createprofile, #finddev {
   float: left;
-/*  width: 25%;
-  height: 300px;*/
+  border-right: solid #C6C6C6 1px;
 }
 
-.finddesign {
+#finddesign {
   float: right;
+  margin: 0;  
+}
+
+footer {
+  background: black;
+  margin: 0;
+  padding: 5px 20px 5px;  
+  color: white;
+  font-size: 20px; 
 }
