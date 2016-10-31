@@ -1,5 +1,5 @@
-// 1. Use document.getElementById() and assign the .onclick event to #color-button
-var changeColor = document.getElementById('color-button')
+  // 1. Use document.getElementById() and assign the .onclick event to #color-button
+var changeColor = document.getElementById('color-button');
 
 // 2. Write a function, named changeColor, that is called when #color-button is clicked
 changeColor.onclick = function () {
