@@ -21,6 +21,8 @@ document.getElementById('click-me').onclick = calcButton;
   // Store drink amount per day as var
   var drinkAmount = document.getElementById('num-per-day').value;
 
+  console.log(currentAge, maxAge, drinkType, drinkAmount)
+  
   // parseInt values
   currentAge = parseInt(currentAge);
   maxAge = parseInt(maxAge);
