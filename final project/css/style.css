@@ -1,0 +1,38 @@
+/*FONT FAMILY REFERENCES*/
+/*
+font-family: 'Poiret One', cursive;
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Raleway', sans-serif;
+*/
+#container{
+  font-family: 'Raleway', sans-serif;
+  max-width: 100%;
+  line-height: 2;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  background-image: url('../images/color-background.jpg') no repear;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+header h1 {
+  font-family: 'Poiret One', cursive;
+  font-size: 60px;
+}
+
+header p { 
+  font-size: 18px;
+}
+
+main {
+  padding-left: 40px;
+  font-size: 18px;
+}
+
+main div {
+  padding: 40px 0;
+}
