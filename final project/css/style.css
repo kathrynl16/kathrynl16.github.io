@@ -8,31 +8,39 @@ font-family: 'Raleway', sans-serif;
   font-family: 'Raleway', sans-serif;
   max-width: 100%;
   line-height: 2;
+  font-size: 18px;
 }
 
 header {
   text-align: center;
   padding: 20px 0;
-  background-image: url('../images/color-background.jpg') no repear;
+  height: 370px;
+  /*border: 5px solid red ;*/
+  background-image: url('../images/color-background.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+  background-position: 0 -250px;
+  padding-top: 150px;
 }
 
 header h1 {
   font-family: 'Poiret One', cursive;
   font-size: 60px;
+  color: white;
 }
 
 header p { 
-  font-size: 18px;
+  color: white;
 }
 
 main {
-  padding-left: 40px;
-  font-size: 18px;
+  margin-left: 35px;
+  border-left: 2px solid blue;
+  padding-left: 5px;
+  margin-top: 10px;
 }
 
 main div {
-  padding: 40px 0;
+  padding: 300px 0;
 }
