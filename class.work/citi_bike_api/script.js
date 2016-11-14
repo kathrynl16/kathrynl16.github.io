@@ -14,10 +14,5 @@ $.ajax({
           .append("<p> Bikes Available: " + bikes + "</p>")
           .append("<hr>");
       })
-
-
     },
-
-
-
 })
