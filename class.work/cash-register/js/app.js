@@ -23,6 +23,7 @@ $(document).ready(function () {
 		$('#entries').append("<tr><td></td><td>"+entry+'</td></tr>');
 	
 		calculateTotal(entry)	
+
 		$('#newEntry').val('')
 
 	})
@@ -30,7 +31,7 @@ $(document).ready(function () {
 		function calculateTotal (text) {
 			total = total + text;
 			console.log(total);
-			$('#total').html(total);
+			$('#total').html('$'+total);
 		}
 
 })
