@@ -27,11 +27,11 @@ header {
 header h1 {
   font-family: 'Poiret One', cursive;
   font-size: 60px;
-  color: white;
+  color: black;
 }
 
 header p { 
-  color: white;
+  color: grey;
 }
 
 main {
@@ -42,5 +42,6 @@ main {
 }
 
 main div {
-  padding: 300px 0;
+  padding: 100px 0;
+  opacity: 0;
 }
