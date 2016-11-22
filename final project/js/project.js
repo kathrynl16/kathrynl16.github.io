@@ -40,16 +40,17 @@ $(document).ready(function(){
 	// 	 }
 	// })
     function fade() {
-        $('.fade').each(function() {
+        $('.bat').each(function() {
             /* Check the location of each desired element */
-            var objectBottom = $(this).offset().top + $(this).outerHeight();
+            var objectBottom = $('.bat').offset().top + $('.bat').outerHeight();
             var windowBottom = $(window).scrollTop() + $(window).innerHeight();
-            
+            console.log(objectBottom, windowBottom)
+
             /* If the object is completely visible in the window, fade it in */
             if (objectBottom < windowBottom) { //object comes into view (scrolling down)
-                if ($(this).css('opacity')==0) {$(this).fadeTo(500,1);}
+                if ($('.bat').css('opacity')==0) {$('.bat').fadeTo(500,1);}
             } else { //object goes out of view (scrolling up)
-                if ($(this).css('opacity')==1) {$(this).fadeTo(500,0);}
+                if ($('.bat').css('opacity')==1) {$('.bat').fadeTo(500,0);}
             }
         });
     }

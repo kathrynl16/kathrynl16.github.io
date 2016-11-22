@@ -1,0 +1,227 @@
+// FONT FAMILY HELPERS :)
+font-family: 'Oswald', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Source Sans Pro', sans-serif;
+
+body, h1, h2, p, footer {
+  margin: 0;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.clear {
+  clear: both;
+}
+
+
+.tagline h2 {
+  font-family: "Merriweather", serif;
+  font-size: 25px;
+}
+
+.tagline {
+  font-family: "Merriweather", serif;
+  background: #C6C6C6;
+  text-align: center; 
+  font-style: italic;
+  margin: 0;
+  padding: 1px 0 1px 0; 
+}
+
+header {
+  background: black;
+  margin: 0;
+  padding: 0 20px 0 20px;
+  border-bottom: 5px solid yellow;
+  overflow: hidden;
+
+}
+
+header h1 {
+  color: yellow;
+  font-family: "Merriweather", serif;
+  float: left; 
+  margin: 0;
+  padding-top: 10px;
+}
+
+ul #large-nav {
+  list-style-type: none;
+  padding: 0;
+  float: right;
+  /*overflow: hidden;*/
+
+}
+
+#large-nav li {
+  float: right;
+}
+
+#large-nav li a {
+  display: inline-block;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  width: 85px;
+  padding: 0px  5px 0 5px;
+  text-decoration: none;
+}
+
+/*#blog {
+  width: 75px;
+  margin-left: -25px;
+  margin-right: -10px;
+}*/
+
+#taste {
+  color: grey;
+  text-decoration: line-through;
+}
+
+#are {
+  border-bottom: solid yellow 3px;
+}
+
+#main {
+  background-image: url('../img/coworking.jpg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover; 
+  background-position: 0 -200px; 
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
+  height: 500px; 
+  margin: 0;
+  padding: 0;
+}
+
+#textbox {
+  background-color: rgba(235,229,229,0.9);
+  font-family: 'Oswald', sans-serif;
+  width: 30%;
+  float: right;
+  margin-top: 70px;
+  margin-right: 20px;
+  padding: 40px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+#textbox h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+} 
+
+#textbox p {
+  font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: lighter;
+  padding: 0;
+  margin-top: 0;
+}
+
+.button {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  display: inline-block;
+  padding: 10px 0 10px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 4px;
+  box-shadow: 0 3px 1px 0px rgba(0, 0, 0, 0.3);
+  }
+
+.mainbackground {
+  background-color: yellow;
+}
+
+.secondbackground {
+  background-color: rgb(198,198,198);
+}
+
+.subsection {
+  background: rgb(238,238,238);
+  height: 250px;
+  padding-top: 25px; 
+}
+
+.subsection div {
+  padding: 15px 30px 15px; 
+  width: 28%;
+}
+
+.subsection h2 {
+  font-size: 25px;
+  font-family: 'Merriweather', serif;
+  margin-bottom: 0;
+}
+
+.subsection p {
+  font-size: 20px;  
+  margin-top: 0;
+}
+
+#createprofile, #finddev {
+  float: left;
+  border-right: solid #C6C6C6 1px;
+}
+
+#finddesign {
+  float: right;
+  /*margin: 0;  */
+}
+
+footer {
+  background: black;
+  margin: 0;
+  padding: 5px 20px 5px;  
+  color: white;
+  font-size: 20px; 
+}
+
+#burger, #small-nav {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  #large-nav {
+    display: none;
+  }
+
+  #burger {
+    display:block;
+    float: right;
+    margin-top: 10px;
+  }
+}
+
+#small-nav {
+  background: grey;
+  margin: 0px;
+
+}
+
+#small-nav ul{
+  text-decoration: none;
+  /*text-align: center;*/
+
+}
+
+
+#small-nav a {
+  display: block;
+  text-decoration: none;
+  color:white;
+  list-style-type: none;
+  padding: 10px;
+  text-align: center;
+
+  /*background: pink;*/
+
+}
