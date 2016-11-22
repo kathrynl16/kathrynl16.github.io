@@ -1,5 +1,16 @@
 $(document).ready(function(){
+	( function( $ ) {
+    	// Init Skrollr
+    	var s = skrollr.init({
+        render: function(data) {
+            //Debugging - Log the current scroll position.
+            console.log(data.curTop);
+        }
+    });
 
+
+    	
+} )( jQuery );
 
 	// show each div when scrolls over and hides after
 	// $(window).scroll(function(){
@@ -14,12 +25,12 @@ $(document).ready(function(){
 	// 		$('.bat').fadeIn("slow");
 	// 	} else {
 	// 		$('.bat').fadeOut("slow");
-	// 	}
-	// })
-	var batScrollPos = $('.bat').offset().top;
-	var dogScrollPos = $('.dog').offset().top;
+	// // 	}
+	// // })
+	// var batScrollPos = $('.bat').offset().top;
+	// var dogScrollPos = $('.dog').offset().top;
 	
-	console.log(batScrollPos, dogScrollPos)
+	// console.log(batScrollPos, dogScrollPos)
 
 
 	// $(window).scroll(function (){
@@ -38,26 +49,26 @@ $(document).ready(function(){
 	// 		 $(".dog").css('visibility', 'hidden');
 	// 		 $(".human").css('visibility', 'hidden');
 	// 	 }
-	// })
-    function fade() {
-        $('.bat').each(function() {
-            /* Check the location of each desired element */
-            var objectBottom = $('.bat').offset().top + $('.bat').outerHeight();
-            var windowBottom = $(window).scrollTop() + $(window).innerHeight();
-            console.log(objectBottom, windowBottom)
+	// // })
+ //    function fade() {
+ //        $('.bat').each(function() {
+ //            /* Check the location of each desired element */
+ //            var objectBottom = $('.bat').offset().top + $('.bat').outerHeight();
+ //            var windowBottom = $(window).scrollTop() + $(window).innerHeight();
+ //            console.log(objectBottom, windowBottom)
 
-            /* If the object is completely visible in the window, fade it in */
-            if (objectBottom < windowBottom) { //object comes into view (scrolling down)
-                if ($('.bat').css('opacity')==0) {$('.bat').fadeTo(500,1);}
-            } else { //object goes out of view (scrolling up)
-                if ($('.bat').css('opacity')==1) {$('.bat').fadeTo(500,0);}
-            }
-        });
-    }
-    fade(); //Fade in completely visible elements during page-load
-    $(window).scroll(function() {
-    	fade();
-	}); //Fade in elements during scroll
+ //            /* If the object is completely visible in the window, fade it in */
+ //            if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+ //                if ($('.bat').css('opacity')==0) {$('.bat').fadeTo(500,1);}
+ //            } else { //object goes out of view (scrolling up)
+ //                if ($('.bat').css('opacity')==1) {$('.bat').fadeTo(500,0);}
+ //            }
+ //        });
+ //    }
+ //    fade(); //Fade in completely visible elements during page-load
+ //    $(window).scroll(function() {
+ //    	fade();
+	// }); //Fade in elements during scroll
 
 	// $('.bat').show();
 	// $('.dog').show();
