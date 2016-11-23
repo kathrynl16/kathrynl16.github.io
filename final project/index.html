@@ -17,30 +17,45 @@
     </header>
     <main>
       <!-- <div class="start">Start</div> -->
-      <div class="instructions" class='fade'>
+      <div class="instructions">
         <p>Scroll down to see how different animals see</p>
       </div>
-      
-      <section id="slide-2">
-          <div class="bcg" data-0="background-color:rgb(1,27,59);" data-top="background-color:(0,0,0);"  data-anchor-target="#slide-2">
-            <div class="hsContainer">
-              <div class="hsContent">
-                <h2 data-center="opacity: 1" data--400-bottom="opacity: 0" data-418-top="opacity: 1" data-616-top="opacity: 0" data-anchor-target="#slide-2 h2">Fade me in and out</h2>
-                <p data-center="opacity: 1"   data--200-bottom="opacity: 0" data-206-top="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slide-2 h2">Here we are changing the background color from blue to black. Text is fading in at 206 pixels from the bottom and fading out 106 pixels from the top.</p>
-              </div>
-              </div>
+
+      <section id="slide-1" class="homeSlide">
+        <div class="bcg">
+          <div class="hsContainer">
+            <div class="hsContent bat"
+                data-center="opacity: 1"
+                data-center-top="opacity: 0"
+                data--400-bottom="opacity: 0;"
+                data-anchor-target="#slide-1">
+                <h2>Bat</h2>
+            <!--     <img src="images/bat.png">
+                <span id='batinfo'></span> -->
+            </div>
           </div>
-        </section>
-      <div class="bat">
-        <h2>Bat</h2>
-        <img src="images/bat.png">
-        <span id='batinfo'></span>
-      </div>
-      <div class="dog">
-        <h2>Dog</h2>
-        <img src="images/Dog.png">
-        <span id='doginfo'></span>
-      </div>
+        </div>
+      </section>
+
+      <section id="slide-2" class="homeSlide">
+        <div class="bcg">
+          <div class="hsContainer">
+            <div class="hsContent dog"
+                data-center="opacity: 1"
+                data-center-top="opacity: 0"
+                data--400-bottom="opacity: 0;"
+                data-anchor-target="#slide-2">
+              <h2>Dog</h2>
+<!--          <img src="images/Dog.png">
+              <span id='doginfo'></span> -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
       <div class="human">
         <h2>Human</h2>
         <img src="images/Standing Man.png">
@@ -61,7 +76,6 @@
 <div>
 <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
 <script src="js/skrollr.js"></script>
-
 <script type="text/javascript" src="js/project.js"> </script>
 </body>
 </html>
