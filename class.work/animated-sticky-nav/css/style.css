@@ -1,0 +1,19 @@
+.wrapper {
+	text-align: center;
+}
+
+header {
+	background: pink;
+	position:fixed;
+	text-align: center;
+	top: 0;
+	font-size: 50px;
+	width: 100%;
+	transition: all 2s;
+}
+
+.header-offset {
+	background: salmon;
+	font-size: 20px;
+	text-align: left;
+}

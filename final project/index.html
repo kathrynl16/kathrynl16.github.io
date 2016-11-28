@@ -10,19 +10,42 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+
   <div id='container'>
-    <header>
-      <h1>COLORS</h1>
-      <p>To what extent is color a physical thing in the physical world, and to what extent is it created in our minds? </p>
+    <header id='header'>
+      <div class="bcg"
+             data-center="background-position: 50% 0px;"
+             data-top-bottom="background-position: 50% -100px;"
+             data-anchor-target="#header">
+        <h1>COLORS</h1>
+        <p>To what extent is color a physical thing in the physical world, and to what extent is it created in our minds? </p>
+      </div>
     </header>
     <main>
       <!-- <div class="start">Start</div> -->
-      <div class="instructions">
-        <p>Scroll down to see how different animals see</p>
-      </div>
+      
+      <section id="slide-0" class="homeSlide">
+        <div class="bcg"
+             data-center="background-position: 50% 0px;"
+             data-top-bottom="background-position: 50% -100px;"
+             data-anchor-target="#slide-0">
+          <div class="hsContainer">
+            <div class="hsContent instructions"
+                data-center="opacity: 1"
+                data-center-top="opacity: 0"
+                data--400-bottom="opacity: 0;"
+                data-anchor-target="#slide-0">
+               <p>Animal's can see different colors based on their number of cone cells in their eyes <br> In fact, many species can see light with frequencies outside the human <b>visible spectrum</b> <br> Let's see how different animals see...</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section id="slide-1" class="homeSlide">
-        <div class="bcg">
+        <div class="bcg"
+             data-center="background-position: 50% 0px;"
+             data-top-bottom="background-position: 50% -100px;"
+             data-anchor-target="#slide-1">
           <div class="hsContainer">
             <div class="hsContent bat"
                 data-center="opacity: 1"
@@ -30,15 +53,20 @@
                 data--400-bottom="opacity: 0;"
                 data-anchor-target="#slide-1">
                 <h2>Bat</h2>
-            <!--     <img src="images/bat.png">
-                <span id='batinfo'></span> -->
+                <img src="images/bat.png">
+                <div class="description" id='batinfo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</div>
             </div>
           </div>
         </div>
       </section>
 
+
+
       <section id="slide-2" class="homeSlide">
-        <div class="bcg">
+        <div class="bcg"
+             data-center="background-position: 50% 0px;"
+             data-top-bottom="background-position: 50% -100px;"
+             data-anchor-target="#slide-2">
           <div class="hsContainer">
             <div class="hsContent dog"
                 data-center="opacity: 1"
@@ -46,34 +74,81 @@
                 data--400-bottom="opacity: 0;"
                 data-anchor-target="#slide-2">
               <h2>Dog</h2>
-<!--          <img src="images/Dog.png">
-              <span id='doginfo'></span> -->
+              <img src="images/Dog.png">
+              <div class="description" id='doginfo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</div>
             </div>
           </div>
         </div>
       </section>
 
-
-
-
-      <div class="human">
-        <h2>Human</h2>
-        <img src="images/Standing Man.png">
-        <span id='humaninfo'></span>
+     <section id="slide-3" class="homeSlide">
+      <div class="bcg"
+           data-center="background-position: 50% 0px;"
+           data-top-bottom="background-position: 50% -100px;"
+           data-anchor-target="#slide-3">
+       <div class="hsContainer">
+        <div class="hsContent human"
+                data-center="opacity: 1"
+                data-center-top="opacity: 0"
+                data--400-bottom="opacity: 0;"
+                data-anchor-target="#slide-3">
+          <h2>Human</h2>
+          <img src="images/Standing Man.png">
+          <div class="description" id='humaninfo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</div>
+        </div>
       </div>
-      <div class="butterfly">
-        <h2>Butterfly</h2>
-        <img src="images/butterfly.png">
-        <span id='butterflyinfo'></span>
-      </div>
-      <div class="mantis-shrimp">
+    </div>
+  </section>
+
+
+
+
+ <section id="slide-4" class="homeSlide">
+      <div class="bcg" 
+           data-center="background-position: 50% 0px;"
+           data-top-bottom="background-position: 50% -100px;"
+           data-anchor-target="#slide-4">
+       <div class="hsContainer">
+        <div class="hsContent butterfly"
+                data-center="opacity: 1"
+                data-center-top="opacity: 0"
+                data--400-bottom="opacity: 0;"
+                data-anchor-target="#slide-4">
+
+          <h2>Butterfly</h2>
+          <img src="images/butterfly.png">
+          <div class="description" id='butterflyinfo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</div>
+        </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="slide-5" class="homeSlide">
+      <div class="bcg"
+           data-center="background-position: 50% 0px;"
+           data-top-bottom="background-position: 50% -100px;"
+           data-anchor-target="#slide-5">
+       <div class="hsContainer">
+        <div class="hsContent"
+                data-center="opacity: 1"
+                data-center-top="opacity: 0"
+                data--400-bottom="opacity: 0;"
+                data-anchor-target="#slide-5">
+
         <h2>Mantis Shrimp</h2>
-        <img src="images/Prawn.png">
-        <span id='mantisinfo'></span>
+        <div class="images"><img src="images/Prawn.png"></div>
+        <div class="description">
+        <div id='mantisinfo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</div>
       </div>
-    </main>
+    </div>
+  </div>
+</section>
+
+</main>
   </div>
 <div>
+
 <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
 <script src="js/skrollr.js"></script>
 <script type="text/javascript" src="js/project.js"> </script>

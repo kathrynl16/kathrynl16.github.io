@@ -7,16 +7,14 @@ font-family: 'Cinzel Decorative', cursive;
 font-family: 'Raleway', sans-serif;
 */
 
-section {
+/*section {
   height:600;
-  /*color:green;*/
-}
+}*/
 
 header {
   text-align: center;
   padding: 20px 0;
   height: 370px;
-  /*border: 5px solid red ;*/
   background-image: url('../images/color-background.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -32,20 +30,23 @@ header h1 {
 }
 
 header p { 
-  color: grey;
+  color: black;
+  display: inline-block; 
+  background-color: rgba(255,255,255,0.5);
+  padding: 10px 5px;
 }
 
 main {
   /*margin-left: 35px;*/
   /*border-left: 2px solid blue;*/
-  padding-left: 5px;
-  margin-top: 10px;
+/*  padding-left: 5px;
+  margin-top: 10px;*/
   /*height: 1000px;*/
   /*border: 5px red;*/
 }
 
 main div {
-  padding: 100px 0;
+  /*padding: 100px 0;*/
   /*border: 5px solid black;*/
   /*display:none;*/
 }
@@ -67,23 +68,72 @@ main div {
 }
 
 .hsContent {
-  max-width: 700px;
-  position: absolute;
+  max-width: 100%;
+  /*position: absolute;*/
+  text-align: center;
 /*  left: 50%;
-  top: 50%;*/
+  top: 20%;*/
+}
+
+  .hsContent h2 {
+    color: #fff8de;
+    font-family: 'Poiret One', cursive;
+    /*background-color: rgba(0,0,0,0.1);*/
+    /*padding-top: 10px;*/
+    font-size: 60px;
+    /*line-height: 38px;*/
+    /*margin-bottom: 12px;*/
+
+  }
+
+.instructions p {
+  font-size: 25px;
+  margin-top: 200px;
+  line-height: 60px;
+  background-color: rgba(255,255,255,0.3);
 }
 
 
+#slide-0 .bcg {
+  background-image: url('../images/sky.jpg');
+} 
 
 #slide-1 .bcg {
-  background-color: pink;
+  background-image: url('../images/batcave2.jpg');
 }
 
 #slide-2 .bcg {
-  background-color: orange;
+  background-image: url('../images/park.jpg');
 }
 
+#slide-3 .bcg {
+  background-image: url('../images/city.jpg');
+}
 
+#slide-4 .bcg {
+  background-image: url('../images/garden.jpg');
+}
+
+#slide-5 .bcg {
+  background-image: url('../images/ocean.jpg');
+}
+
+.hsContent img{
+  float: left;
+  border: 5px solid red;
+  margin-left: 20px; 
+}
+
+.hsContent .description{
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  text-align: left;
+  display: inline-block;
+  width: 85%;
+  padding: 5px;
+  font-size: 25px;
+  font-weight: lighter;
+}
 
 
 
