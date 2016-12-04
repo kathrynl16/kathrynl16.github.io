@@ -38,7 +38,8 @@ font-family: 'Raleway', sans-serif;
 #intro-0 p { 
   color: black;
   background-color: rgba(255,255,255,0.5);
-  padding: 10px 0;
+  padding: 10px 0px;
+
 }
 
 
@@ -75,6 +76,7 @@ font-family: 'Raleway', sans-serif;
   margin-top: 200px;
   line-height: 60px;
   background-color: rgba(255,255,255,0.3);
+  padding: 0 5px;
 }
 
 
@@ -157,6 +159,7 @@ font-family: 'Raleway', sans-serif;
   padding: 5px;
   font-size: 25px;
   font-weight: lighter;
+  line-height: 1.5;
 
 }
 
@@ -166,12 +169,16 @@ font-family: 'Raleway', sans-serif;
     font-size: 60px;
 }
 
+#slide-end h2 {
+  font-size: 60px;
+  background-color: rgba(0,0,0,0.5)
+}
 
 .colorContainer {
     width: 100%; height: 100%;
     position: relative;
 }
-.colorContainer .curtain {
+.colorContainer {
     width: 300%; height: 1px;
     background-color: #000000;
     position: absolute; top: 25%; left: 0;
@@ -201,6 +208,14 @@ font-family: 'Raleway', sans-serif;
 
     .hsContent .description{
       font-size: 20px;
+    }
+    .instructions p{
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    .hsContent h2 {
+      font-size: 30px;
     }
 /*    section {
         height: 600px;
