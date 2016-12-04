@@ -7,11 +7,9 @@ font-family: 'Cinzel Decorative', cursive;
 font-family: 'Raleway', sans-serif;
 */
 
-/*section {
-  height:600;
-}*/
 
-header {
+/*
+#intro-0 {
   text-align: center;
   padding: 20px 0;
   height: 370px;
@@ -22,34 +20,29 @@ header {
   background-position: 0 -250px;
   padding-top: 150px;
 }
+*/
 
-header h1 {
+#intro-0 {
+  position:relative;
+
+}
+#intro-0 h1 {
   font-family: 'Poiret One', cursive;
-  font-size: 60px;
+  font-size: 80px;
   color: black;
+  padding-top: 30px;
+
+
 }
 
-header p { 
+#intro-0 p { 
   color: black;
-  display: inline-block; 
+  /*display: inline-block; */
   background-color: rgba(255,255,255,0.5);
-  padding: 10px 5px;
+  padding: 10px 0;
 }
 
-main {
-  /*margin-left: 35px;*/
-  /*border-left: 2px solid blue;*/
-/*  padding-left: 5px;
-  margin-top: 10px;*/
-  /*height: 1000px;*/
-  /*border: 5px red;*/
-}
 
-main div {
-  /*padding: 100px 0;*/
-  /*border: 5px solid black;*/
-  /*display:none;*/
-}
 
 .bcg {
   background-position: center center;
@@ -69,21 +62,13 @@ main div {
 
 .hsContent {
   max-width: 100%;
-  /*position: absolute;*/
   text-align: center;
-/*  left: 50%;
-  top: 20%;*/
 }
 
   .hsContent h2 {
     color: #fff8de;
     font-family: 'Poiret One', cursive;
-    /*background-color: rgba(0,0,0,0.1);*/
-    /*padding-top: 10px;*/
     font-size: 60px;
-    /*line-height: 38px;*/
-    /*margin-bottom: 12px;*/
-
   }
 
 .instructions p {
@@ -118,6 +103,17 @@ main div {
   background-image: url('../images/garden.jpg');
 }
 
+#slide-end .bcg {
+    background-image: url('../images/mantisshrimp.jpg')
+
+}
+
+#intro-0 .bcg {
+  background-image: url('../images/color-background.jpg')
+  /*background-position: 0 -250px;*/
+
+}
+
 #intro-1 .bcg {
     background: none;
     background-color: #010101;
@@ -125,7 +121,7 @@ main div {
     text-align: center
 }
 
-#color-1 .bcg {s
+#color-1 .bcg {
   background-image: url('../images/Background-1.png');
 }
 
@@ -138,11 +134,11 @@ main div {
 }
 
 #color-4 .bcg {
-  background-image: url('../images/Background-4.jpg');
+  background-image: url('../images/Background-5.jpg');
 }
 
 #color-5 .bcg {
-  background-image: url('../images/Background-5.jpg');
+  background-image: url('../images/Background-4.jpg');
 }
 
 
@@ -150,18 +146,27 @@ main div {
   float: left;
   border: 5px solid red;
   margin-left: 20px; 
+
 }
 
 .hsContent .description{
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.8);
   color: white;
-  text-align: left;
+  text-align: center;
   display: inline-block;
   width: 85%;
   padding: 5px;
   font-size: 25px;
   font-weight: lighter;
+
 }
+
+.color h2 {
+    color: #DDA0DD;
+    font-family: 'Poiret One', cursive;
+    font-size: 60px;
+}
+
 
 .colorContainer {
     width: 100%; height: 100%;
